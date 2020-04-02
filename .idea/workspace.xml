@@ -5,6 +5,7 @@
       <config projectName="OpenCV_Tutorial" targetName="OpenCV_Tutorial" />
       <config projectName="OpenCV_Tutorial" targetName="OpenCV_Tutorial3" />
       <config projectName="OpenCV_Tutorial" targetName="OpenCV_Tutorial2" />
+      <config projectName="OpenCV_Tutorial" targetName="OpenCV_Tutorial5" />
       <config projectName="OpenCV_Tutorial" targetName="OpenCV_Tutorial4" />
     </generated>
   </component>
@@ -14,7 +15,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cbd6f8b-233e-4987-8e11-81a345ae9ff5" name="Default Changelist" comment="" />
+    <list default="true" id="1cbd6f8b-233e-4987-8e11-81a345ae9ff5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenCV_Tutorial.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenCV_Tutorial.cbp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +34,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZLRDMKxysKfJRpoALcTcso6j6Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -47,7 +61,7 @@
       <recent name="$PROJECT_DIR$/classes" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.OpenCV_Tutorial4">
+  <component name="RunManager" selected="CMake Application.OpenCV_Tutorial5">
     <configuration name="OpenCV_Tutorial" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenCV_Tutorial" TARGET_NAME="OpenCV_Tutorial" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenCV_Tutorial" RUN_TARGET_NAME="OpenCV_Tutorial">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -68,11 +82,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OpenCV_Tutorial5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenCV_Tutorial" TARGET_NAME="OpenCV_Tutorial5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenCV_Tutorial" RUN_TARGET_NAME="OpenCV_Tutorial5">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.OpenCV_Tutorial" />
       <item itemvalue="CMake Application.OpenCV_Tutorial2" />
       <item itemvalue="CMake Application.OpenCV_Tutorial3" />
       <item itemvalue="CMake Application.OpenCV_Tutorial4" />
+      <item itemvalue="CMake Application.OpenCV_Tutorial5" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -95,7 +115,7 @@
       <workItem from="1585300711718" duration="4828000" />
       <workItem from="1585551462503" duration="1474000" />
       <workItem from="1585722524611" duration="3665000" />
-      <workItem from="1585810022041" duration="1556000" />
+      <workItem from="1585810022041" duration="3232000" />
     </task>
     <servers />
   </component>
@@ -107,22 +127,22 @@
       <screen x="0" y="17" width="1366" height="751" />
     </state>
     <state x="509" y="161" width="428" height="484" key="FileChooserDialogImpl/0.17.1366.751@0.17.1366.751" timestamp="1584681047300" />
-    <state width="1320" height="155" key="GridCell.Tab.0.bottom" timestamp="1585811593704">
+    <state width="1320" height="155" key="GridCell.Tab.0.bottom" timestamp="1585812921188">
       <screen x="0" y="17" width="1366" height="751" />
     </state>
-    <state width="1320" height="155" key="GridCell.Tab.0.bottom/0.17.1366.751@0.17.1366.751" timestamp="1585811593704" />
-    <state width="1320" height="155" key="GridCell.Tab.0.center" timestamp="1585811593703">
+    <state width="1320" height="155" key="GridCell.Tab.0.bottom/0.17.1366.751@0.17.1366.751" timestamp="1585812921188" />
+    <state width="1320" height="155" key="GridCell.Tab.0.center" timestamp="1585812921187">
       <screen x="0" y="17" width="1366" height="751" />
     </state>
-    <state width="1320" height="155" key="GridCell.Tab.0.center/0.17.1366.751@0.17.1366.751" timestamp="1585811593703" />
-    <state width="1320" height="155" key="GridCell.Tab.0.left" timestamp="1585811593701">
+    <state width="1320" height="155" key="GridCell.Tab.0.center/0.17.1366.751@0.17.1366.751" timestamp="1585812921187" />
+    <state width="1320" height="155" key="GridCell.Tab.0.left" timestamp="1585812921186">
       <screen x="0" y="17" width="1366" height="751" />
     </state>
-    <state width="1320" height="155" key="GridCell.Tab.0.left/0.17.1366.751@0.17.1366.751" timestamp="1585811593701" />
-    <state width="1320" height="155" key="GridCell.Tab.0.right" timestamp="1585811593704">
+    <state width="1320" height="155" key="GridCell.Tab.0.left/0.17.1366.751@0.17.1366.751" timestamp="1585812921186" />
+    <state width="1320" height="155" key="GridCell.Tab.0.right" timestamp="1585812921187">
       <screen x="0" y="17" width="1366" height="751" />
     </state>
-    <state width="1320" height="155" key="GridCell.Tab.0.right/0.17.1366.751@0.17.1366.751" timestamp="1585811593704" />
+    <state width="1320" height="155" key="GridCell.Tab.0.right/0.17.1366.751@0.17.1366.751" timestamp="1585812921187" />
     <state x="179" y="28" key="SettingsEditor" timestamp="1585298741409">
       <screen x="0" y="17" width="1366" height="751" />
     </state>
@@ -139,9 +159,9 @@
       <screen x="0" y="17" width="1366" height="751" />
     </state>
     <state x="345" y="174" key="run.anything.popup/0.17.1366.751@0.17.1366.751" timestamp="1585723903616" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584682950508">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585812749603">
       <screen x="0" y="17" width="1366" height="751" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.17.1366.751@0.17.1366.751" timestamp="1584682950508" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.17.1366.751@0.17.1366.751" timestamp="1585812749603" />
   </component>
 </project>

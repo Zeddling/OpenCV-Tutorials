@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = "/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-buil
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/zeddling/Applications/clion-2019.3.5/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/zeddling/Applications/clion-2019.3.5/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named OpenCV_Tutorial4
+# Target rules for targets named OpenCV_Tutorial2
 
 # Build rule for target.
-OpenCV_Tutorial4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OpenCV_Tutorial4
-.PHONY : OpenCV_Tutorial4
+OpenCV_Tutorial2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenCV_Tutorial2
+.PHONY : OpenCV_Tutorial2
 
 # fast build rule for target.
-OpenCV_Tutorial4/fast:
-	$(MAKE) -f CMakeFiles/OpenCV_Tutorial4.dir/build.make CMakeFiles/OpenCV_Tutorial4.dir/build
-.PHONY : OpenCV_Tutorial4/fast
+OpenCV_Tutorial2/fast:
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial2.dir/build.make CMakeFiles/OpenCV_Tutorial2.dir/build
+.PHONY : OpenCV_Tutorial2/fast
 
 #=============================================================================
 # Target rules for targets named OpenCV_Tutorial
@@ -137,6 +137,32 @@ OpenCV_Tutorial/fast:
 .PHONY : OpenCV_Tutorial/fast
 
 #=============================================================================
+# Target rules for targets named OpenCV_Tutorial4
+
+# Build rule for target.
+OpenCV_Tutorial4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenCV_Tutorial4
+.PHONY : OpenCV_Tutorial4
+
+# fast build rule for target.
+OpenCV_Tutorial4/fast:
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial4.dir/build.make CMakeFiles/OpenCV_Tutorial4.dir/build
+.PHONY : OpenCV_Tutorial4/fast
+
+#=============================================================================
+# Target rules for targets named OpenCV_Tutorial5
+
+# Build rule for target.
+OpenCV_Tutorial5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenCV_Tutorial5
+.PHONY : OpenCV_Tutorial5
+
+# fast build rule for target.
+OpenCV_Tutorial5/fast:
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial5.dir/build.make CMakeFiles/OpenCV_Tutorial5.dir/build
+.PHONY : OpenCV_Tutorial5/fast
+
+#=============================================================================
 # Target rules for targets named OpenCV_Tutorial3
 
 # Build rule for target.
@@ -148,19 +174,6 @@ OpenCV_Tutorial3: cmake_check_build_system
 OpenCV_Tutorial3/fast:
 	$(MAKE) -f CMakeFiles/OpenCV_Tutorial3.dir/build.make CMakeFiles/OpenCV_Tutorial3.dir/build
 .PHONY : OpenCV_Tutorial3/fast
-
-#=============================================================================
-# Target rules for targets named OpenCV_Tutorial2
-
-# Build rule for target.
-OpenCV_Tutorial2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OpenCV_Tutorial2
-.PHONY : OpenCV_Tutorial2
-
-# fast build rule for target.
-OpenCV_Tutorial2/fast:
-	$(MAKE) -f CMakeFiles/OpenCV_Tutorial2.dir/build.make CMakeFiles/OpenCV_Tutorial2.dir/build
-.PHONY : OpenCV_Tutorial2/fast
 
 brightness.o: brightness.cpp.o
 
@@ -215,6 +228,33 @@ histogram.s: histogram.cpp.s
 histogram.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenCV_Tutorial4.dir/build.make CMakeFiles/OpenCV_Tutorial4.dir/histogram.cpp.s
 .PHONY : histogram.cpp.s
+
+histogram2.o: histogram2.cpp.o
+
+.PHONY : histogram2.o
+
+# target to build an object file
+histogram2.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial5.dir/build.make CMakeFiles/OpenCV_Tutorial5.dir/histogram2.cpp.o
+.PHONY : histogram2.cpp.o
+
+histogram2.i: histogram2.cpp.i
+
+.PHONY : histogram2.i
+
+# target to preprocess a source file
+histogram2.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial5.dir/build.make CMakeFiles/OpenCV_Tutorial5.dir/histogram2.cpp.i
+.PHONY : histogram2.cpp.i
+
+histogram2.s: histogram2.cpp.s
+
+.PHONY : histogram2.s
+
+# target to generate assembly for a file
+histogram2.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial5.dir/build.make CMakeFiles/OpenCV_Tutorial5.dir/histogram2.cpp.s
+.PHONY : histogram2.cpp.s
 
 lms.o: lms.cpp.o
 
@@ -276,18 +316,22 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... rebuild_cache"
-	@echo "... OpenCV_Tutorial4"
-	@echo "... OpenCV_Tutorial"
-	@echo "... OpenCV_Tutorial3"
 	@echo "... OpenCV_Tutorial2"
+	@echo "... OpenCV_Tutorial"
+	@echo "... OpenCV_Tutorial4"
+	@echo "... rebuild_cache"
+	@echo "... OpenCV_Tutorial5"
+	@echo "... OpenCV_Tutorial3"
+	@echo "... edit_cache"
 	@echo "... brightness.o"
 	@echo "... brightness.i"
 	@echo "... brightness.s"
 	@echo "... histogram.o"
 	@echo "... histogram.i"
 	@echo "... histogram.s"
+	@echo "... histogram2.o"
+	@echo "... histogram2.i"
+	@echo "... histogram2.s"
 	@echo "... lms.o"
 	@echo "... lms.i"
 	@echo "... lms.s"

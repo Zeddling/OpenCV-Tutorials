@@ -53,18 +53,20 @@ CMAKE_BINARY_DIR = "/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-buil
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/OpenCV_Tutorial4.dir/all
-all: CMakeFiles/OpenCV_Tutorial.dir/all
-all: CMakeFiles/OpenCV_Tutorial3.dir/all
 all: CMakeFiles/OpenCV_Tutorial2.dir/all
+all: CMakeFiles/OpenCV_Tutorial.dir/all
+all: CMakeFiles/OpenCV_Tutorial4.dir/all
+all: CMakeFiles/OpenCV_Tutorial5.dir/all
+all: CMakeFiles/OpenCV_Tutorial3.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/OpenCV_Tutorial4.dir/clean
-clean: CMakeFiles/OpenCV_Tutorial.dir/clean
-clean: CMakeFiles/OpenCV_Tutorial3.dir/clean
 clean: CMakeFiles/OpenCV_Tutorial2.dir/clean
+clean: CMakeFiles/OpenCV_Tutorial.dir/clean
+clean: CMakeFiles/OpenCV_Tutorial4.dir/clean
+clean: CMakeFiles/OpenCV_Tutorial5.dir/clean
+clean: CMakeFiles/OpenCV_Tutorial3.dir/clean
 
 .PHONY : clean
 
@@ -74,31 +76,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/OpenCV_Tutorial4.dir
+# Target rules for target CMakeFiles/OpenCV_Tutorial2.dir
 
 # All Build rule for target.
-CMakeFiles/OpenCV_Tutorial4.dir/all:
-	$(MAKE) -f CMakeFiles/OpenCV_Tutorial4.dir/build.make CMakeFiles/OpenCV_Tutorial4.dir/depend
-	$(MAKE) -f CMakeFiles/OpenCV_Tutorial4.dir/build.make CMakeFiles/OpenCV_Tutorial4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles" --progress-num=7,8 "Built target OpenCV_Tutorial4"
-.PHONY : CMakeFiles/OpenCV_Tutorial4.dir/all
+CMakeFiles/OpenCV_Tutorial2.dir/all:
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial2.dir/build.make CMakeFiles/OpenCV_Tutorial2.dir/depend
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial2.dir/build.make CMakeFiles/OpenCV_Tutorial2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target OpenCV_Tutorial2"
+.PHONY : CMakeFiles/OpenCV_Tutorial2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/OpenCV_Tutorial4.dir/rule: cmake_check_build_system
+CMakeFiles/OpenCV_Tutorial2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenCV_Tutorial4.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenCV_Tutorial2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/OpenCV_Tutorial4.dir/rule
+.PHONY : CMakeFiles/OpenCV_Tutorial2.dir/rule
 
 # Convenience name for target.
-OpenCV_Tutorial4: CMakeFiles/OpenCV_Tutorial4.dir/rule
+OpenCV_Tutorial2: CMakeFiles/OpenCV_Tutorial2.dir/rule
 
-.PHONY : OpenCV_Tutorial4
+.PHONY : OpenCV_Tutorial2
 
 # clean rule for target.
-CMakeFiles/OpenCV_Tutorial4.dir/clean:
-	$(MAKE) -f CMakeFiles/OpenCV_Tutorial4.dir/build.make CMakeFiles/OpenCV_Tutorial4.dir/clean
-.PHONY : CMakeFiles/OpenCV_Tutorial4.dir/clean
+CMakeFiles/OpenCV_Tutorial2.dir/clean:
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial2.dir/build.make CMakeFiles/OpenCV_Tutorial2.dir/clean
+.PHONY : CMakeFiles/OpenCV_Tutorial2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/OpenCV_Tutorial.dir
@@ -128,6 +130,60 @@ CMakeFiles/OpenCV_Tutorial.dir/clean:
 .PHONY : CMakeFiles/OpenCV_Tutorial.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/OpenCV_Tutorial4.dir
+
+# All Build rule for target.
+CMakeFiles/OpenCV_Tutorial4.dir/all:
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial4.dir/build.make CMakeFiles/OpenCV_Tutorial4.dir/depend
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial4.dir/build.make CMakeFiles/OpenCV_Tutorial4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles" --progress-num=7,8 "Built target OpenCV_Tutorial4"
+.PHONY : CMakeFiles/OpenCV_Tutorial4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/OpenCV_Tutorial4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenCV_Tutorial4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/OpenCV_Tutorial4.dir/rule
+
+# Convenience name for target.
+OpenCV_Tutorial4: CMakeFiles/OpenCV_Tutorial4.dir/rule
+
+.PHONY : OpenCV_Tutorial4
+
+# clean rule for target.
+CMakeFiles/OpenCV_Tutorial4.dir/clean:
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial4.dir/build.make CMakeFiles/OpenCV_Tutorial4.dir/clean
+.PHONY : CMakeFiles/OpenCV_Tutorial4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/OpenCV_Tutorial5.dir
+
+# All Build rule for target.
+CMakeFiles/OpenCV_Tutorial5.dir/all:
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial5.dir/build.make CMakeFiles/OpenCV_Tutorial5.dir/depend
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial5.dir/build.make CMakeFiles/OpenCV_Tutorial5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles" --progress-num=9,10 "Built target OpenCV_Tutorial5"
+.PHONY : CMakeFiles/OpenCV_Tutorial5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/OpenCV_Tutorial5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenCV_Tutorial5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/OpenCV_Tutorial5.dir/rule
+
+# Convenience name for target.
+OpenCV_Tutorial5: CMakeFiles/OpenCV_Tutorial5.dir/rule
+
+.PHONY : OpenCV_Tutorial5
+
+# clean rule for target.
+CMakeFiles/OpenCV_Tutorial5.dir/clean:
+	$(MAKE) -f CMakeFiles/OpenCV_Tutorial5.dir/build.make CMakeFiles/OpenCV_Tutorial5.dir/clean
+.PHONY : CMakeFiles/OpenCV_Tutorial5.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/OpenCV_Tutorial3.dir
 
 # All Build rule for target.
@@ -153,33 +209,6 @@ OpenCV_Tutorial3: CMakeFiles/OpenCV_Tutorial3.dir/rule
 CMakeFiles/OpenCV_Tutorial3.dir/clean:
 	$(MAKE) -f CMakeFiles/OpenCV_Tutorial3.dir/build.make CMakeFiles/OpenCV_Tutorial3.dir/clean
 .PHONY : CMakeFiles/OpenCV_Tutorial3.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/OpenCV_Tutorial2.dir
-
-# All Build rule for target.
-CMakeFiles/OpenCV_Tutorial2.dir/all:
-	$(MAKE) -f CMakeFiles/OpenCV_Tutorial2.dir/build.make CMakeFiles/OpenCV_Tutorial2.dir/depend
-	$(MAKE) -f CMakeFiles/OpenCV_Tutorial2.dir/build.make CMakeFiles/OpenCV_Tutorial2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target OpenCV_Tutorial2"
-.PHONY : CMakeFiles/OpenCV_Tutorial2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/OpenCV_Tutorial2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenCV_Tutorial2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/OpenCV_Tutorial2.dir/rule
-
-# Convenience name for target.
-OpenCV_Tutorial2: CMakeFiles/OpenCV_Tutorial2.dir/rule
-
-.PHONY : OpenCV_Tutorial2
-
-# clean rule for target.
-CMakeFiles/OpenCV_Tutorial2.dir/clean:
-	$(MAKE) -f CMakeFiles/OpenCV_Tutorial2.dir/build.make CMakeFiles/OpenCV_Tutorial2.dir/clean
-.PHONY : CMakeFiles/OpenCV_Tutorial2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -54,8 +54,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/OpenCV_Tutorial4.dir/DependInfo.cmake"
-  "CMakeFiles/OpenCV_Tutorial.dir/DependInfo.cmake"
-  "CMakeFiles/OpenCV_Tutorial3.dir/DependInfo.cmake"
   "CMakeFiles/OpenCV_Tutorial2.dir/DependInfo.cmake"
+  "CMakeFiles/OpenCV_Tutorial.dir/DependInfo.cmake"
+  "CMakeFiles/OpenCV_Tutorial4.dir/DependInfo.cmake"
+  "CMakeFiles/OpenCV_Tutorial5.dir/DependInfo.cmake"
+  "CMakeFiles/OpenCV_Tutorial3.dir/DependInfo.cmake"
   )
