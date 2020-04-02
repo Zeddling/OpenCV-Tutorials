@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="OpenCV_Tutorial" targetName="OpenCV_Tutorial" />
+      <config projectName="OpenCV_Tutorial" targetName="OpenCV_Tutorial3" />
+      <config projectName="OpenCV_Tutorial" targetName="OpenCV_Tutorial2" />
+      <config projectName="OpenCV_Tutorial" targetName="OpenCV_Tutorial4" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1cbd6f8b-233e-4987-8e11-81a345ae9ff5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1ZLRDMKxysKfJRpoALcTcso6j6Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/classes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.OpenCV_Tutorial4">
+    <configuration name="OpenCV_Tutorial" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenCV_Tutorial" TARGET_NAME="OpenCV_Tutorial" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenCV_Tutorial" RUN_TARGET_NAME="OpenCV_Tutorial">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenCV_Tutorial2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenCV_Tutorial" TARGET_NAME="OpenCV_Tutorial2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenCV_Tutorial" RUN_TARGET_NAME="OpenCV_Tutorial2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenCV_Tutorial3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenCV_Tutorial" TARGET_NAME="OpenCV_Tutorial3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenCV_Tutorial" RUN_TARGET_NAME="OpenCV_Tutorial3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenCV_Tutorial4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenCV_Tutorial" TARGET_NAME="OpenCV_Tutorial4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenCV_Tutorial" RUN_TARGET_NAME="OpenCV_Tutorial4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.OpenCV_Tutorial" />
+      <item itemvalue="CMake Application.OpenCV_Tutorial2" />
+      <item itemvalue="CMake Application.OpenCV_Tutorial3" />
+      <item itemvalue="CMake Application.OpenCV_Tutorial4" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1cbd6f8b-233e-4987-8e11-81a345ae9ff5" name="Default Changelist" comment="" />
+      <created>1584616267348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584616267348</updated>
+      <workItem from="1584616278169" duration="280000" />
+      <workItem from="1584616671248" duration="1463000" />
+      <workItem from="1584649122811" duration="156000" />
+      <workItem from="1584677909117" duration="599000" />
+      <workItem from="1584680458126" duration="5170000" />
+      <workItem from="1585113694868" duration="4036000" />
+      <workItem from="1585296775741" duration="841000" />
+      <workItem from="1585300711718" duration="4828000" />
+      <workItem from="1585551462503" duration="1474000" />
+      <workItem from="1585722524611" duration="3665000" />
+      <workItem from="1585810022041" duration="1556000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="509" y="161" width="428" height="484" key="FileChooserDialogImpl" timestamp="1584681047300">
+      <screen x="0" y="17" width="1366" height="751" />
+    </state>
+    <state x="509" y="161" width="428" height="484" key="FileChooserDialogImpl/0.17.1366.751@0.17.1366.751" timestamp="1584681047300" />
+    <state width="1320" height="155" key="GridCell.Tab.0.bottom" timestamp="1585811593704">
+      <screen x="0" y="17" width="1366" height="751" />
+    </state>
+    <state width="1320" height="155" key="GridCell.Tab.0.bottom/0.17.1366.751@0.17.1366.751" timestamp="1585811593704" />
+    <state width="1320" height="155" key="GridCell.Tab.0.center" timestamp="1585811593703">
+      <screen x="0" y="17" width="1366" height="751" />
+    </state>
+    <state width="1320" height="155" key="GridCell.Tab.0.center/0.17.1366.751@0.17.1366.751" timestamp="1585811593703" />
+    <state width="1320" height="155" key="GridCell.Tab.0.left" timestamp="1585811593701">
+      <screen x="0" y="17" width="1366" height="751" />
+    </state>
+    <state width="1320" height="155" key="GridCell.Tab.0.left/0.17.1366.751@0.17.1366.751" timestamp="1585811593701" />
+    <state width="1320" height="155" key="GridCell.Tab.0.right" timestamp="1585811593704">
+      <screen x="0" y="17" width="1366" height="751" />
+    </state>
+    <state width="1320" height="155" key="GridCell.Tab.0.right/0.17.1366.751@0.17.1366.751" timestamp="1585811593704" />
+    <state x="179" y="28" key="SettingsEditor" timestamp="1585298741409">
+      <screen x="0" y="17" width="1366" height="751" />
+    </state>
+    <state x="179" y="28" key="SettingsEditor/0.17.1366.751@0.17.1366.751" timestamp="1585298741409" />
+    <state x="362" y="221" key="com.intellij.ide.util.TipDialog" timestamp="1585810041307">
+      <screen x="0" y="17" width="1366" height="751" />
+    </state>
+    <state x="362" y="221" key="com.intellij.ide.util.TipDialog/0.17.1366.751@0.17.1366.751" timestamp="1585810041307" />
+    <state x="449" y="259" width="554" height="287" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1584616873764">
+      <screen x="0" y="17" width="1366" height="751" />
+    </state>
+    <state x="449" y="259" width="554" height="287" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.17.1366.751@0.17.1366.751" timestamp="1584616873764" />
+    <state x="345" y="174" key="run.anything.popup" timestamp="1585723903616">
+      <screen x="0" y="17" width="1366" height="751" />
+    </state>
+    <state x="345" y="174" key="run.anything.popup/0.17.1366.751@0.17.1366.751" timestamp="1585723903616" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584682950508">
+      <screen x="0" y="17" width="1366" height="751" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.17.1366.751@0.17.1366.751" timestamp="1584682950508" />
+  </component>
+</project>

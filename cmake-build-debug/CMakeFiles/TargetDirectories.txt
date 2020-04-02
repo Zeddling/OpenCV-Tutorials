@@ -1,0 +1,6 @@
+/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles/OpenCV_Tutorial4.dir
+/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles/OpenCV_Tutorial.dir
+/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles/OpenCV_Tutorial3.dir
+/home/zeddling/Documents/Projects/OpenCV Tutorial/cmake-build-debug/CMakeFiles/OpenCV_Tutorial2.dir
